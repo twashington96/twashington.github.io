@@ -1,0 +1,88 @@
+@import url("https://fonts.googleapis.com/css?family=Montserrat:400,400i,700");
+
+body {
+  margin: 0; 
+  padding: 0;
+  border: 0;
+  background-color: cyan; 
+
+}
+#header {
+  padding: 0px; margin: 0px; 
+  height: 75px;
+  width: 100% ;
+  background-color: #000; 
+  color: #FB8C00; 
+  font-family: Montserrat; 
+  text-align: right; 
+  position: fixed; 
+  top: 0px; left: 0px;
+  z-index: 1; 
+
+}
+#logo{
+  z-index: 1000; 
+  color: red; 
+  font-weight: bold;
+  height: 90px; 
+  width: 90px; 
+  display: inline-block; 
+  background-color: gold; 
+  border-radius: 90px;
+  position: fixed; 
+  top: 7px; 
+  left: 7px; 
+}
+
+#logo>p {
+  padding: 8px;
+  text-align: center; 
+  font-size: 24px; 
+}
+
+#content {
+  padding-top: 75px; 
+  height: 1000px; 
+}
+
+.first-row {
+  width: 30%; 
+  height: 100px;
+  background-color: green; 
+  float: left; 
+  margin: 10px; 
+}
+
+.second-row {
+  width: 405.0px; 
+  height: 100px;
+  background-color: purple; 
+  float: left; 
+  margin: 10px; 
+}
+
+.third-row {
+  width: 405.0px; 
+  height: 100px;
+  background-color: silver; 
+  margin: 10px;
+  column-count: 3;
+}
+
+#help-box{
+  height: 50px; 
+  width: 75px;
+  background-color: #000; 
+  color: #FB8C00; 
+  font-family: Montserrat; 
+  position: fixed;
+  bottom: 15%; 
+  right: 0px; 
+  text-align: center;
+}
+
+#footer{
+  height: 75px; 
+  border-top: dashed 1px #000; 
+  
+}
